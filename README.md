@@ -19,7 +19,7 @@ Architect: James Mark Adair, they are in charge of the design of the robot being
 
 
 **ROAD MAP**
-| Column 1 | Column 2 | Column 3 | Column 4 | Column 5 |
+| Start date | Task Decription | Responsible Team Member | End Date | Outcome |
 |----------|----------|----------|----------|----------|
 |          |          |          |          |          |
 |          |          |          |          |          |
