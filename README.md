@@ -9,7 +9,10 @@ James Mark Adair: churchjame2@myvuw.ac.nz
 Viraj Patel: patelvira2@myvuw.ac.nz
 
 **ROLES**
-Coordinator: Viraj Patel, manages the schedule of the project, with the various dates and meetings. 
+Coordinator: Viraj Patel, manages the schedule of the project, with the various dates and meetings.
+
 Tester: Samuel Catalan, the tester designs, creates and tests the code that the robot will use. 
+
 Architect: James Mark Adair, they are in charge of the design of the robot being used and buidling it. 
+
 
