@@ -18,6 +18,17 @@ Architect: James Mark Adair, they are in charge of the design of the robot being
 
 
 
+
+**GENERAL IDEA OF SOFTWARE** 
+The general of idea of the software is that it will be comprised of multiple programs.
+Firstly it will begin with initialising all the hardware that the robot will be using to move, like connecting the raspberry pi, to the wifi and using that connecting to the move the robot. 
+
+It will then begin decide which quadrant that it is currently in, as each quadrant has diffrerent obstacles. Then depending on the quadrant the software will then go to an infinite loops, where the software contacts the robot API, and the specific quadrant sensor algorithm is used, and then a corrospoinding, movement program for the quadrant is used, to move the robot, adjusting it’s motors. 
+
+
+
+
+
 **ROAD MAP**
 | Start date | Task Decription | Responsible Team Member | End Date | Outcome |
 |----------|----------|----------|----------|----------|
