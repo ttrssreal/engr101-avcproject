@@ -21,7 +21,7 @@ Architect: James Mark Adair, they are in charge of the design of the robot being
 **ROAD MAP**
 | Start date | Task Decription | Responsible Team Member | End Date | Outcome |
 |----------|----------|----------|----------|----------|
-|12/05/2023|          |          |          |          |
+|9/05/2023|Develop the project plan|          |13/05/2023||
 |          |          |          |          |          |
 |          |          |          |          |          |
 |          |          |          |          |          | 
