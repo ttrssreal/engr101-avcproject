@@ -35,7 +35,7 @@ It will then begin decide which quadrant that it is currently in, as each quadra
 |16/05/2023|Design robot frame/components|Samuel Catalan|17/05/2023|          |
 |16/05/2023|Construct the robot based on the design|Samuel Catalan|17/05/2023|          |
 |17/05/2023|Connect and establish a connection to the robot via wifi, and check if it can exchange data|James Churchill, Viraj Patel|23/05/2023|          | 
-|17/05/2023|Begin developing a program to control the robot with basic movements (based on commands)|James Churchill, Samuel Catalan|25/05/2023|          | 
+|17/05/2023|Begin developing a program/DESIGN to control the robot with basic movements (based on commands)|James Churchill, Samuel Catalan|25/05/2023|          | 
 |17/05/2023|Test the robot to check whether it can execute these movements from the server|James Churchill, Viraj Patel|25/05/2023|          | 
 |24/05/2023|Code error identifying mechanisms/possible recovery procedure (data loss)|James Churchill, Samuel Catalan|25/05/2023|          | 
 |23//05/2023|Develop quadrant 1: Open the gate by exchanging with the server over Wifi|James Churchill|25/05/2023|          | 
