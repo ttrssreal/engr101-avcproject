@@ -10,11 +10,11 @@ Viraj Patel: patelvira2@myvuw.ac.nz
 
 **ROLES**
 
-Coordinator: Viraj Patel. The coordinator is responsible for the overall management of the project, these include but are not limited to; assigning tasks/goals to other team members, maintaining and coordinating every other member to work effectively, and set deadlines for the project. The coordinator connects the other assigned roles in moulding the overall project.
+Coordinator: Viraj Patel. The coordinator is responsible for the overall management of the project, these include but are not limited to; assigning tasks/goals to other team members, maintaining and coordinating every other member to work effectively, and set deadlines for the project. The coordinator connects the other assigned roles in moulding the overall project (and helps out to each department).
 
 Tester/Developer: James Churchill. This assigned role is responsible for testing and developing the software, and to verify whether the software functions and meets the requirements (for the task and end-users). They design software plans, code it, and create test plans to ensure the robustness and functionality. 
 
-Architect: Sam Catalan, they are in charge of the design of the robot being used and buidling it. 
+Architect: Sam Catalan. The architect is responsible for the overall architecture for the system (works on structure of software/hardware, the technology used, and the overall design over the segments of project). This role also ensures the code/software works with the overall architecture. 
 
 
 
