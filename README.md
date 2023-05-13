@@ -50,9 +50,9 @@ It will then begin decide which quadrant that it is currently in, as each quadra
 |30/05/2023|Verify and test quadrant 3 under different conditions, and document the results|Samuel Catalan, Viraj Patel|1/06/2023|          | 
 |30/05/2023|Refine code/design for quadrant 3 (based on the success of the test)|Samuel Catalan, Viraj Patel|1/06/2023|          | 
 |31/05/2023|Design an idea for detecting the coloured cylinders, and avoiding them (another algorithm)|Samuel Catalan, James Mark Adair|1/06/2023|          | 
-|          |          |          |          |          | 
-|          |          |          |          |          | 
-|          |          |          |          |          | 
-|          |          |          |          |          | 
-|          |          |          |          |          | 
+|31/05/2023|Implement idea, and develop a program for quadrant 4|Samuel Catalan|31/05/2023|          | 
+|31/05/2023|Verify and test quadrant 4 under different conditions, and document the results|Samuel Catalan, Viraj Patel|1/05/2023|          | 
+|31/05/2023|Refine code/design for quadrant 4 (based off the success of the tests)|Samuel Catalan, Viraj Patel|1/05/2023|          | 
+|Week 12 (29 May - 2nd June)|Present completed project to stakeholders|Viraj Patel|3/05/2023|          | 
+|Week 12|AVC Final report|Samuel Catalan, Viraj Patel, James Mark Adair|3rd June|          | 
 
