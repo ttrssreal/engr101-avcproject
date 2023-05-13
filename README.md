@@ -32,7 +32,23 @@ It will then begin decide which quadrant that it is currently in, as each quadra
 **ROAD MAP**
 | Start date | Task Decription | Responsible Team Member | End Date | Outcome |
 |----------|----------|----------|----------|----------|
-|9/05/2023|Develop the project plan|          |13/05/2023||
-|          |          |          |          |          |
-|          |          |          |          |          |
+|9/05/2023|Develop the project plan|Viraj Patel|13/05/2023||
+|16/05/2023|Design robot frame/components|James Mark Adair|17/05/2023|          |
+|16/05/2023|Construct the robot based on the design|James Mark Adair|17/05/2023|          |
+|17/05/2023|Connect and establish a connection to the robot via wifi, and check if it can exchange data|Samuel Catalan|23/05/2023|          | 
 |          |          |          |          |          | 
+|          |          |          |          |          | 
+|          |          |          |          |          | 
+|          |          |          |          |          | 
+|          |          |          |          |          | 
+|          |          |          |          |          | 
+|          |          |          |          |          | 
+|          |          |          |          |          | 
+|          |          |          |          |          | 
+|          |          |          |          |          | 
+|          |          |          |          |          | 
+|          |          |          |          |          | 
+|          |          |          |          |          | 
+|          |          |          |          |          | 
+|          |          |          |          |          | 
+
