@@ -4,17 +4,17 @@
 
 Samuel Catalan: catalasamu@myvuw.ac.nz
 
-James Mark Adair: churchjame2@myvuw.ac.nz
+James Churchill: churchjame2@myvuw.ac.nz
 
 Viraj Patel: patelvira2@myvuw.ac.nz
 
 **ROLES**
 
-Coordinator: Viraj Patel, manages the schedule of the project, with the various dates and meetings.
+Coordinator: Viraj Patel. The coordinator is responsible for the overall management of the project, these include but are not limited to; assigning tasks/goals to other team members, maintaining and coordinating every other member to work effectively, and set deadlines for the project. The coordinator connects the other assigned roles in moulding the overall project.
 
-Tester: Samuel Catalan, the tester designs, creates and tests the code that the robot will use. 
+Tester/Developer: James Churchill. This assigned role is responsible for testing and developing the software, and to verify whether the software functions and meets the requirements (for the task and end-users). They design software plans, code it, and create test plans to ensure the robustness and functionality. 
 
-Architect: James Mark Adair, they are in charge of the design of the robot being used and buidling it. 
+Architect: Sam Catalan, they are in charge of the design of the robot being used and buidling it. 
 
 
 
