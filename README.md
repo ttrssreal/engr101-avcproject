@@ -16,7 +16,12 @@ Tester/Developer: James Churchill. This assigned role is responsible for testing
 
 Architect: Sam Catalan. The architect is responsible for the overall architecture for the system (works on structure of software/hardware, the technology used, and the overall design over the segments of project). This role also ensures the code/software works with the overall architecture. 
 
-
+***Resources***
+https://datasheets.raspberrypi.com/bcm2835/bcm2835-peripherals.pdf
+https://github.com/matthiasbock/bcm2835/tree/master
+http://www.airspayce.com/mikem/bcm2835/index.html
+https://elinux.org/RPi_Low-level_peripherals
+https://github.com/abhiTronix/raspberry-pi-cross-compilers
 
 
 **GENERAL IDEA OF SOFTWARE** 
