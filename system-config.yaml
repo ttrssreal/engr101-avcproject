@@ -1,0 +1,9 @@
+pid:
+  prop: 1
+  int: 2
+  der: 3
+  
+# Specify ip/port of gate server
+gate:
+  ip: 1.2.3.4
+  port: 1234
