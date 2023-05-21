@@ -1,6 +1,6 @@
 **OLD PLAN COMPARISON TO CURRENT PROGRESS**
 
-| Start date | Task Decription | Responsible Team Member | End Date | Outcome |
+| Start date | Task Decription | Responsible Team Member | End Date | Actual Progress as per 22 of May |
 |----------|----------|----------|----------|----------|
 |9/05/2023|Develop the project plan|Viraj Patel|13/05/2023||
 |16/05/2023|Design robot frame/components|Samuel Catalan|17/05/2023|          |
