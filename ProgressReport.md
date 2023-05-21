@@ -26,3 +26,8 @@
 |31/05/2023|Refine code/design for quadrant 4 (based off the success of the tests)|James Churchill, Viraj Patel|1/05/2023|          | 
 |Week 12 (29 May - 2nd June)|Present completed project to stakeholders|Viraj Patel|3/05/2023|          | 
 |Week 12|AVC Final report|James Churchill, Viraj Patel, Samuel Catalan|3rd June|          | 
+
+**Analysis of Project Progress*
+What went according to plan. What did not?
+What are bottlenecks, what is slowing the development?
+Team recommendation on how to advance the Project?
