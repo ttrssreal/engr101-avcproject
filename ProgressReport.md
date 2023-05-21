@@ -1,4 +1,4 @@
-*OLD PLAN COMPARISON TO CURRENT PROGRESS*
+**OLD PLAN COMPARISON TO CURRENT PROGRESS**
 
 **ROAD MAP**
 | Start date | Task Decription | Responsible Team Member | End Date | Outcome |
