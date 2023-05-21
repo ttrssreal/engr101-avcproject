@@ -1,6 +1,5 @@
 **OLD PLAN COMPARISON TO CURRENT PROGRESS**
 
-**ROAD MAP**
 | Start date | Task Decription | Responsible Team Member | End Date | Outcome |
 |----------|----------|----------|----------|----------|
 |9/05/2023|Develop the project plan|Viraj Patel|13/05/2023||
