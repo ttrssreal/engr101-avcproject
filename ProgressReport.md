@@ -28,6 +28,9 @@
 |Week 12|AVC Final report|James Churchill, Viraj Patel, Samuel Catalan|3rd June|          | 
 
 **Analysis of Project Progress*
+
 What went according to plan. What did not?
+
 What are bottlenecks, what is slowing the development?
+
 Team recommendation on how to advance the Project?
