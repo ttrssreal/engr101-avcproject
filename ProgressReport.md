@@ -2,7 +2,7 @@
 
 | Start date | Task Decription | Responsible Team Member | End Date | Actual Progress as per 22 of May |
 |----------|----------|----------|----------|----------|
-|9/05/2023|Develop the project plan|Viraj Patel|13/05/2023||
+|9/05/2023|Develop the project plan|Viraj Patel|13/05/2023|Completed, written the plan and formed a clear path|
 |16/05/2023|Design robot frame/components|Samuel Catalan|17/05/2023|          |
 |16/05/2023|Construct the robot based on the design|Samuel Catalan|17/05/2023|          |
 |17/05/2023|Connect and establish a connection to the robot via wifi, and check if it can exchange data|James Churchill, Viraj Patel|23/05/2023|          | 
