@@ -37,7 +37,7 @@ Furthermore, the tasks related to the *connect and establish a connection to the
 
 What did not go according to plan?
 
-
+The main component of our project plan as of 22nd of May that did not go to plan was *Constructing the robot based on the design*. While we formed a well-defined design for the robot, the actual construction process was much more challenging and time consuming. Whilst building, we encountered a few bottlenecks, slowing down our progress, and realised more time should have been allocated for this task in the project plan. 
 
 What are bottlenecks, what is slowing the development?
 
