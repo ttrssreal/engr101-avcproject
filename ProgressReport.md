@@ -27,7 +27,7 @@
 |Week 12 (29 May - 2nd June)|Present completed project to stakeholders|Viraj Patel|3/05/2023|Not started yet, later starting date planned| 
 |Week 12|AVC Final report|James Churchill, Viraj Patel, Samuel Catalan|3rd June|Not started yet, later starting date planned| 
 
-**Analysis of Project Progress*
+*Analysis of Project Progress*
 
 What went according to plan. What did not?
 
