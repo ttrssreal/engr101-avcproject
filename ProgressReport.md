@@ -47,6 +47,6 @@ What are bottlenecks, what is slowing the development?
 
 Team recommendation on how to advance the Project?
 
-In terms of progressing the project, we should prioritise the task of building the robot and spend **extra** time within the labs completing this, as it has a critical impact on subsequent tasks. Therefore, once we finish this quickly (80% done), we can start working on the quadrant tasks and get back on track (which will also diminish most of the current bottlenecks). 
+In terms of progressing the project, we should prioritise the task of building the robot and spend *extra* time within the labs completing this, as it has a critical impact on subsequent tasks. Therefore, once we finish this quickly (80% done), we can start working on the quadrant tasks and get back on track (which will also diminish most of the current bottlenecks). 
 
 Then, we could allocate our time to working on designing algorithms to assist our robot through the quadrant tasks (i.e following the black line, and tracking). Thereafter, we can get a testing plan constructed for testing each of the development of the quadrant tasks, and ensure the robot’s functionality is robust. 
