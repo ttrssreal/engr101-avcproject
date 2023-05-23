@@ -5,8 +5,8 @@
 |9/05/2023|Develop the project plan|Viraj Patel|13/05/2023|Completed, written the plan and formed a clear path|
 |16/05/2023|Design robot frame/components|Samuel Catalan|17/05/2023|Completed, formed a clear plan/design for the robot, and thought of required parts|
 |16/05/2023|Construct the robot based on the design|Samuel Catalan|17/05/2023|80% Completed, need to work on camera holder but the foundation/majority of build is completed|
-|17/05/2023|Connect and establish a connection to the robot via wifi, and check if it can exchange data|James Churchill, Viraj Patel|23/05/2023|Completed, developed connection via wifi to the robot| 
-|17/05/2023|Begin developing a program/DESIGN to control the robot with basic movements (based on commands)|James Churchill, Samuel Catalan|25/05/2023|Completed the design, and now waiting for testing| 
+|17/05/2023|Connect and establish a connection to the robot via wifi, and check if it can exchange data|James Churchill, Viraj Patel|23/05/2023|Completed, developed connection via wifi to the robot (had the wheels show some movement) from computer| 
+|17/05/2023|Begin developing a program/DESIGN to control the robot with basic movements (based on commands)|James Churchill, Samuel Catalan|25/05/2023|Completed the design, and developed the code (with commands). Now waiting for the testing| 
 |17/05/2023|Test the robot to check whether it can execute these movements from the server|James Churchill, Viraj Patel|25/05/2023|Completed, after testing, we deducted that the motors attached to the wheels work and the connection can translate data for basic movements| 
 |24/05/2023|Code error identifying mechanisms/possible recovery procedure (data loss)|James Churchill|25/05/2023|Not started yet, later starting date planned| 
 |23//05/2023|Develop quadrant 1: Open the gate by exchanging with the server over Wifi|James Churchill|25/05/2023|Not started yet, later starting date planned| 
