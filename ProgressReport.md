@@ -31,6 +31,9 @@
 
 What went according to plan. What did not?
 
+In terms of the components of our plan that went accordingly, *developing the project plan** was concluded before the set due date. This early positive enabled us to attain a clear understanding of the project timeline, and a comprehensive lists of tasks to be completed, which will serve as a vital reference throughout the project. 
+
+
 What are bottlenecks, what is slowing the development?
 
 Team recommendation on how to advance the Project?
