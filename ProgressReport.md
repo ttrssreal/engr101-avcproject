@@ -31,7 +31,8 @@
 
 What went according to plan. What did not?
 
-In terms of the components of our plan that went accordingly, *developing the project plan** was concluded before the set due date. This early positive enabled us to attain a clear understanding of the project timeline, and a comprehensive lists of tasks to be completed, which will serve as a vital reference throughout the project. 
+In terms of the components of our plan that went accordingly, *developing the project plan* was concluded before the set due date. This early positive enabled us to attain a clear understanding of the project timeline, and a comprehensive lists of tasks to be completed, which will serve as a vital reference throughout the project. 
+
 Furthermore, the tasks related to the *connect and establish a connection to the robot via wifi*, and *designing/developing/test the robot through basic movements* progressed smoothly. These tasks were executed accordingly to the project plan well before their respective deadlines. The success of these key functions helped will a play vital role in keeping everything on track (as we need to complete these in order to access the quadrant tasks).
 
 What are bottlenecks, what is slowing the development?
