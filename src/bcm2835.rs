@@ -60,9 +60,9 @@ pub fn save_picture(filename: &[i8; 5]) -> i32 {
     }
 }
 
-pub fn get_pixel(row: i32, col: i32, color: i32) -> i8 {
+pub fn get_pixel(row: u32, col: u32, color: u32) -> i8 {
     unsafe {
-        _Z9get_pixeliii(row, col, color)
+        _Z9get_pixeliii(row as i32, col as i32, color as i32)
     }
 }
 

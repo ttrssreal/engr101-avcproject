@@ -1,4 +1,4 @@
-use std::net::{TcpStream, SocketAddr};
+use std::net::TcpStream;
 use std::io::{Write, Read};
 use std::str;
 
@@ -14,9 +14,7 @@ impl NetworkGate {
     }
     
     pub fn open_gate(&self) -> Result<(), std::io::Error> {
-        let mut stream = TcpStream::connect(
-            SocketAddr::new(self.config.ip, self.config.port)
-        )?;
+        let mut stream: TcpStream = TcpStream::connect(self.config.sock_addr.sock)?;
         let mut resp_buf = [0u8; 6];
         writeln!(&mut stream, "Please\n")?;
         stream.read(&mut resp_buf)?;
