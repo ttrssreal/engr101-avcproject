@@ -17,19 +17,14 @@ fn main() -> Result<(), std::io::Error> {
 
     println!("{:#?}", system_config);
 
-    let system = System::new(system_config);
+    let mut system = System::new(system_config);
 
-    let camera = system.get_camera();
-    let pid = system.get_pid();
-
-    for _ in 0..300 {
-        camera.update();
-        camera.show();
-        if let Some(pos) = camera.get_line_pos() {
-            let turn = pid.output(pos);
-            dbg!(pos);
-        } else { eprintln!("No line found!"); }
+    for _ in 0..1000 {
+        if let Err(err) = system.update() {
+            println!("Error: {:?}", err);
+            break;
+        }
     }
-
+    system.stop();
     Ok(())
 }

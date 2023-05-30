@@ -1,4 +1,4 @@
-debug_mode: true
+debug: true
 
 camera:
   frame_width: 320
@@ -6,10 +6,9 @@ camera:
 
 pid:
   kp: 1
-  ki: 0
-  kd: 0
+  ki: 2
+  kd: 3
   
 gate:
   # Specify ip/port of gate server
-  sock_addr: 1.2.3.4:1234
-  open_time: 69420
+  sock_addr: 1.2.3.4:69

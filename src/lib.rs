@@ -3,3 +3,5 @@ pub mod config;
 pub mod camera;
 pub mod pid;
 pub mod system;
+pub mod robot;
+pub mod gate;

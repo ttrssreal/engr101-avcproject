@@ -19,8 +19,7 @@ impl PID {
 
     pub fn output(&self, line_pos: u32) -> i32 {
         let co_eff = &self.params;
-        let e = line_pos as i32 - self.target as i32;
-        dbg!(e);
-        e * co_eff.kp
+        let e = (line_pos as i32 - self.target as i32) as f32;
+        (e * co_eff.kp) as i32
     }
 }

@@ -5,16 +5,15 @@ use std::net::ToSocketAddrs;
 #[derive(Serialize, Deserialize, Debug, Default)]
 #[serde(default)]
 pub struct PidConfig {
-    pub kp: i32,
-    pub ki: i32,
-    pub kd: i32,
+    pub kp: f32,
+    pub ki: f32,
+    pub kd: f32,
 }
 
 #[derive(Serialize, Deserialize, Debug, Default)]
 #[serde(default)]
 pub struct GateConfig {
     pub sock_addr: SocketAddrWithDefault,
-    pub open_time: u64,
 }
 
 #[derive(Serialize, Deserialize, Debug, Default)]
@@ -30,7 +29,7 @@ pub struct SystemConfig {
     pub pid: PidConfig,
     pub gate: GateConfig,
     pub camera: CameraConfig,
-    pub debug_mode: bool,
+    pub debug: bool,
 }
 
 #[derive(Serialize, Deserialize, Debug)]

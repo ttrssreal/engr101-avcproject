@@ -46,4 +46,24 @@ impl Camera {
         total.checked_div(ns)
     }
 
+    pub fn detect_marker(&self) -> bool {
+        let scan_line_h = self.conf.frame_height / 2;
+
+        // is red / (sum rgb) > 0.5?
+        let is_red = |x| {
+            let red = bcm2835::get_pixel(scan_line_h, x, 0) as f32;
+            let tot = (0..3).map(|ch| {
+                bcm2835::get_pixel(scan_line_h, x, ch) as u32
+            }).sum::<u32>() as f32;
+            red / tot > 0.5
+        };
+
+        // count red pixels along the scan line
+        let red = (0..self.conf.frame_width)
+            .map(is_red)
+            .filter(|&x| x)
+            .count();
+
+        red > 120
+    }
 }

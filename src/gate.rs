@@ -4,11 +4,11 @@ use std::str;
 
 use crate::config::GateConfig;
 
-pub struct NetworkGate {
+pub struct Gate {
     config: GateConfig,
 }
 
-impl NetworkGate {
+impl Gate {
     pub fn new(config: GateConfig) -> Self {
         Self { config }
     }
