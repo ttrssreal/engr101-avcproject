@@ -66,4 +66,29 @@ impl Camera {
 
         red > 120
     }
+
+    pub fn detect_intersection(&self) -> bool {
+        let calc_gs = |x| {
+            (0..3).map(|ch| {
+                bcm2835::get_pixel(self.conf.frame_height / 2, x, ch) as u32
+            })
+            .sum::<u32>() / 3
+        };
+
+        let (gs_min, gs_max) = (0..self.conf.frame_width)
+            .map(calc_gs)
+            .minmax()
+            .into_option()
+            .unwrap();
+
+        if gs_max - gs_min < 70 {
+            return false;
+        }
+
+        let total = (0..self.conf.frame_width)
+            .filter_map(|x| Some(x).filter(|&x| calc_gs(x) < 90))
+            .count();
+
+        total as u32 > 180
+    }
 }

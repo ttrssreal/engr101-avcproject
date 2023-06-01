@@ -5,9 +5,17 @@ use crate::bcm2835;
 use crate::robot::Robot;
 use crate::gate::Gate;
 
-#[derive(Debug)]
+enum Turn {
+    Left,
+    Right,
+}
+
+use Turn::*;
+static TURN_LOOKUP: [Turn; 7] = [ Right, Right, Left, Left, Right, Left, Right ];
+
+#[derive(Debug, PartialEq)]
 pub enum State {
-    Stoped,
+    Stopped,
     Idle,
     GateClosed,
     GateOpen,
@@ -15,6 +23,7 @@ pub enum State {
     Maze,
     Pillars,
     TrasitioningMaze,
+    FoundIntersection,
 }
 
 pub struct System {
@@ -23,7 +32,9 @@ pub struct System {
     robot: Robot,
     gate: Gate,
     state: State,
-    transition_ctr: u32,
+    transition_timer: u32,
+    intersection_timer: u32,
+    maze_turn_idx: usize,
 }
 
 impl System {
@@ -36,18 +47,20 @@ impl System {
             gate: Gate::new(conf.gate),
             robot: Robot::new(),
             state: State::Idle,
-            transition_ctr: 0,
+            transition_timer: 0,
+            intersection_timer: 0,
+            maze_turn_idx: 0,
         }
     }
 
-    pub fn update(&mut self) -> Result<(), std::io::Error> {
+    pub fn update(&mut self) -> Result<bool, std::io::Error> {
         dbg!(&self.state);
         self.camera.update();
         self.state = match self.state {
-            State::Stoped => {
+            // Stopped is a terminal state so return and finish
+            State::Stopped => {
                 self.robot.stop();
-                std::thread::sleep(std::time::Duration::from_millis(500));
-                std::process::exit(0);
+                State::Stopped
             },
             State::Idle => State::GateClosed,
             State::GateClosed => {
@@ -70,31 +83,54 @@ impl System {
                 if self.camera.detect_marker() {
                     State::Pillars
                 } else {
-                    // TODO: add maze logic
                     if let Some(pos) = self.camera.get_line_pos() {
                         let turn = self.pid.output(pos);
                         self.robot.set_turn(turn); 
                     }
-                    State::Maze
+                    if self.camera.detect_intersection() {
+                        State::FoundIntersection
+                    } else {
+                        State::Maze
+                    }
                 }
             },
-            State::TrasitioningMaze => {
-                self.transition_ctr += 1;
-                if self.transition_ctr > 100 {
-                    self.transition_ctr = 0;
+            State::FoundIntersection => {
+                assert!(self.maze_turn_idx < TURN_LOOKUP.len());
+                // Hardcoded 25 iterations of turning generalises
+                // to all turns in the maze.
+                if self.intersection_timer > 25 {
+                    self.maze_turn_idx += 1;
+                    self.intersection_timer = 0;
                     State::Maze
                 } else {
+                    self.intersection_timer += 1;
+                    let offset = match TURN_LOOKUP[self.maze_turn_idx] {
+                        Left => -10,
+                        Right => 9,
+                    };
+                    self.robot.set_turn(offset);
+                    State::FoundIntersection
+                }
+            },
+            // This state is used to skip over the section markers
+            // i.e avoid multiple detections etc
+            State::TrasitioningMaze => {
+                self.transition_timer += 1;
+                if self.transition_timer > 50 {
+                    State::Maze
+                } else {
+                    self.robot.set_turn(0);
                     State::TrasitioningMaze
                 }
             },
-            State::Pillars => State::Stoped,
+            State::Pillars => State::Stopped,
         };
         self.robot.update();
-        Ok(())
+        Ok(self.state == State::Stopped) // exit if stopped
     }
 
     pub fn stop(&mut self) {
-        self.state = State::Stoped;
+        self.state = State::Stopped;
         self.update().unwrap();
     }
 }

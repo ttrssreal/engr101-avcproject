@@ -19,12 +19,17 @@ fn main() -> Result<(), std::io::Error> {
 
     let mut system = System::new(system_config);
 
-    for _ in 0..1000 {
-        if let Err(err) = system.update() {
-            println!("Error: {:?}", err);
-            break;
+    loop {
+        match system.update() {
+            Ok(finished) => if finished { return Ok(()) },
+            Err(err) => {
+                println!("Error: {:?}", err);
+                break;
+            },
         }
     }
     system.stop();
+    // wait for hw exchange
+    std::thread::sleep(std::time::Duration::from_millis(500));
     Ok(())
 }
