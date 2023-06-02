@@ -1,5 +1,12 @@
 # AVCProject Team 28
 
+## Build Instructions
+Building for the *raspberry-pi zero* (tested) on an *x86-64* host system:\
+Ensure the rust `arm-unknown-linux-gnueabihf` target is installed on your system. This can be done with rustup.\
+Setup the cross compiler with `./setup.sh`\
+Run the build with `cargo build` optionally appending the `--release` flag for a stripped binary (smaller)\
+The output of the build will be in `target/arm-unknown-linux-gnueabihf/<debug/release>/avcproject-team-28`\ 
+
 **EMAILS**
 
 Samuel Catalan: catalasamu@myvuw.ac.nz
@@ -19,7 +26,7 @@ Architect: Sam Catalan. The architect is responsible for the overall architectur
 ***Resources***
 https://datasheets.raspberrypi.com/bcm2835/bcm2835-peripherals.pdf
 https://github.com/matthiasbock/bcm2835/tree/master
-http://www.airspayce.com/mikem/bcm2835/index.html
+http://www.airspayce.com/mikem/bcm2835/index:.html
 https://elinux.org/RPi_Low-level_peripherals
 https://github.com/abhiTronix/raspberry-pi-cross-compilers
 
